@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripTalk</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4822366b9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="top-head">
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                
+            </div>
+            <div>
+                <img src="image/headlogo.png" alt="">
+            </div>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-button">
+                    <i class="fa fa-search"></i> <!-- You can use any icon library or custom icon here -->
+                </button>
+            </div>
+        </div>
+
+        <nav>
+            <div class="navbar" id="myNavbar">
+                <a class="icon" href="#">&#9776;</a>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            Categories <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Category 1</a>
+                            <a href="#">Category 2</a>
+                            <a href="#">Category 3</a>
+                        </div>
+                    </div>
+                    
+                <a href="#">Destination</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+                </div>
+                <a class="subscribe-button" href="#">Subscribe</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="carousel-container">
+                <input class="carousel-radio" type="radio" name="slide" id="slide1" checked>
+                <input class="carousel-radio" type="radio" name="slide" id="slide2">
+                <!-- Add more radio buttons for additional slides -->
+                <div class="carousel-slides">
+                    <div class="carousel-slide">
+                        <label for="slide1" class="carousel-arrow left-arrow"></label>
+                        <div class="carousel-norway">Norway</div>
+                        <label for="slide1" class="carousel-arrow right-arrow"></label>
+                        <img src="image/banner.png" alt="Image 1">
+                        <div class="banner-text">
+                            <div class="author">
+                                <p><i class="fa-regular fa-user"></i> Sarfraz Jasim</p>
+                                <p> | </p>
+                                <p><i class="fa-solid fa-calendar-days"></i> July 17, 2023</p>
+                            </div>
+                            <h2 class="banner-title">Everything You Need To Know
+                                To See The Northern Light In Norway</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <label for="slide2" class="carousel-arrow left-arrow"></label>
+                        <div class="carousel-norway">Norway</div>
+                        <label for="slide2" class="carousel-arrow right-arrow"></label>
+                        <img style="width: 100%;" src="image/banner2.png" alt="Image 2">
+                        <div class="banner-text">
+                            <div class="author">
+                                <p><i class="fa-regular fa-user"></i> Sarfraz Jasim</p>
+                                <p><i class="fa-solid fa-calendar-days"></i> July 17, 2023</p>
+                            </div>
+                            <h2>Everything You Need To Know
+                                To See The Northern Light In Norway</h2>
+                        </div>
+                    </div>
+                    
+                    <!-- Add more items as needed -->
+                </div>
+                <div class="carousel-nav">
+                    <label for="slide1" class="carousel-arrow left-arrow white">&lt; </label>
+                    <label for="slide2" class="carousel-arrow right-arrow white">&gt;</label>
+                    
+                    
+                    <!-- Add more labels for additional slides -->
+                </div>
+            </div>
+            
+
+            <div class="side">
+                <div class="image-ban">
+                    <h4 class="norway color-2">Norway</h4>
+                    <img src="image/banner2.png" alt="">
+                    <div class="inside-text">
+                        <p> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                    <h4 class="article-title">Everything You Need To Know
+                        To See The Northern Light In Norway</h4>
+                    </div>
+                </div>
+                <div class="image-ban">
+                    <h4 class="norway color-3">Norway</h4>
+                    <img src="image/banner3.png" alt="">
+                    <div class="inside-text">
+                        <p> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                    <h4 class="article-title">Everything You Need To Know
+                        To See The Northern Light In Norway</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner end -->
+
+        <!-- wheretogo  -->
+        <section class="wheretogo">
+            <h1 class="heading">Where to Go</h1>
+            <div class="country">
+                <div class="image-ban">
+                    
+                    <img src="image/newyork.png" alt="">
+                    <div class="inside-text">
+                       
+                    <h2 class="country-title">NEW YORK</h2>
+                    <p class="gap"> What an amazing view!</p>
+                    </div>
+                </div>
+                <div class="image-ban">
+                    
+                    <img src="image/africa.png" alt="">
+                    <div class="inside-text">
+                       
+                    <h2 class="country-title">africa</h2>
+                    <p class="gap"> Land of mystery and music!</p>
+                    </div>
+                </div>
+                <div class="image-ban">
+                    
+                    <img src="image/europe.png" alt="">
+                    <div class="inside-text">
+                       
+                    <h2 class="country-title">europe</h2>
+                    <p class="gap"> Visit foe amazing history!</p>
+                    </div>
+                </div>
+                <div class="image-ban">
+                    
+                    <img src="image/asia.png" alt="">
+                    <div class="inside-text">
+                       
+                    <h2 class="country-title">asia</h2>
+                    <p class="gap"> Visit for honeymoon!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- top destination  -->
+        <section class="topdestination">
+            <h1 class="heading">top destination</h1>
+            <div class="top-dest">
+                <div>
+                    <p class="norway">Norway</p>
+                    <img src="image/destination/Background.png" alt="">
+                    <p> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                    <h4 class="title-2 ">Everything You Need To Know
+                        To See The Northern Light</h4>
+                        <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                </div>
+                <div>
+                    <p class="norway">Norway</p>
+                    <img src="image/destination/Background-1.png" alt="">
+                    <p> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                    <h4 class="title-2 ">Everything You Need To Know
+                        To See The Northern Light</h4>
+                        <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                </div>
+                <div>
+                    <p class="norway">Norway</p>
+                    <img src="image/destination/Background-2.png" alt="">
+                    <p> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                    <h4 class="title-2 ">Everything You Need To Know
+                        To See The Northern Light</h4>
+                        <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                </div>
+                <div>
+                    <p class="norway">Norway</p>
+                    <img src="image/destination/Background-3.png" alt="">
+                    <p> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                    <h4 class="title-2 ">Everything You Need To Know
+                        To See The Northern Light</h4>
+                    <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+
+                </div>
+            </div>
+
+         
+            
+        </section>
+
+        <!-- ad  -->
+        
+
+
+        <section class="ad">
+            <div class="ad-banner">
+                
+                    <div class="ad-text">
+                        <p style="font-weight: 400;">Gutenberg <br>
+                        <span style="font-weight: 500;">Post Blocks</span></p>
+                    </div>
+                    <div class="ad-button">
+                        <a href="#">Download Now</a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- discover places  -->
+        <section class="discover">
+            <h3 class="heading">Discover Most Amazing PLACES</h3>
+            <div class="places">
+                <div class="places-1">
+                    <p class="norway">Norway</p>
+                    <img src="image/places/Image.png" alt="">
+                    <p class="date"><i class="fa-regular fa-user"></i> Sarfraz Jasim  |  <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                    <h4 class="title-places ">Everything You Need To Know
+                        To See The Northern Light</h4>
+                    <p class="para1">Hidden Hills property with mountain and city view  boast nine bed rooms including a master suite  with private terrace and anny...</p>
+                    <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+
+                </div>
+                <div class="place-col2">
+                    <div class="col2-content">
+                        <p class="norway">Norway</p>
+                        <img src="image/places/Image-1.png" alt="">
+                       <div class="place-text">
+                        <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                        <h4 class="title-3 ">Everything You Need To Know
+                            To See The Northern Light</h4>
+                        <p class="para1">Hidden Hills property with mountain and city view  boast nine bed </p>
+                        <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                       </div>
+    
+                    </div>
+                    <div class="col2-content">
+                        <p class="norway">Norway</p>
+                        <img src="image/places/Image-2.png" alt="">
+                        <div class="place-text">
+                            <p class="date"><i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                            <h4 class="title-3 ">Everything You Need To Know
+                                To See The Northern Light</h4>
+                                <p class="para1">Hidden Hills property with mountain and city view  boast nine bed</p>
+                            <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                           </div>
+                    </div>
+                    <div class="col2-content">
+                        <p class="norway">Norway</p>
+                        <img src="image/places/Image-3.png" alt="">
+                        
+                        <div class="place-text">
+                            <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                            <h4 class="title-3 ">Everything You Need To Know
+                                To See The Northern Light</h4>
+                                <p class="para1">Hidden Hills property with mountain and city view  boast nine bed</p>
+                            <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                           </div>
+    
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- latest journal  -->
+        <section class="latest-journal">
+            
+            <div class="journal">
+                
+                <div class="journal-post">
+                    <div class="journal-banner">
+                        <h3 class="heading">LATEST FROM MY JOURNAL</h3>
+                        <p class="norway">Norway</p>
+                        <img src="image/journal.png" alt="">
+                        <p class="date"><i class="fa-regular fa-user"></i> Sarfraz Jasim  |  <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                        <h4 class="title-places ">Everything You Need To Know To See The
+                            Northern Lights In Nosey Sky</h4>
+                        <p class="journal-para">Hidden Hills property with mountain and city view  boast nine bed rooms including a master  suite  with private terrace and anny Hills property with mountain..</p>
+                        <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                    </div>
+                    <hr>
+                    <div class="journal-article">
+                        <div class="popular-post">
+                            <p class="norway color-4 ">Norway</p>
+                            <img src="image/journal/Image.png" alt="">
+                        
+                            <div class="place-text">
+                            <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                            <h4 class="title-4 ">Everything You Need To Know To See The
+                                Northern Lights In Nosey Sky</h4>
+                                <p class="journal-para">Hidden Hills property with mountain and city  view  boast nine bed rooms including</p>
+                            <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                           </div>
+                        </div>
+
+                        <div class="popular-post">
+                            <p class="norway color-1 ">Norway</p>
+                            <img src="image/journal/Image-2.png" alt="">
+                        
+                            <div class="place-text">
+                            <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                            <h4 class="title-4 ">Everything You Need To Know To See The
+                                Northern Lights In Nosey Sky</h4>
+                                <p class="journal-para">Hidden Hills property with mountain and city  view  boast nine bed rooms including</p>
+                            <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                           </div>
+                        </div>
+
+                        <div class="popular-post">
+                            <p class="norway color-3 ">Norway</p>
+                            <img src="image/journal/Image-1.png" alt="">
+                        
+                            <div class="place-text">
+                            <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                            <h4 class="title-4 ">Everything You Need To Know To See The
+                                Northern Lights In Nosey Sky</h4>
+                                <p class="journal-para">Hidden Hills property with mountain and city  view  boast nine bed rooms including</p>
+                            <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                           </div>
+                        </div>
+
+                        <div class="popular-post">
+                            <p class="norway color-2 ">Norway</p>
+                            <img src="image/journal/Image-3.png" alt="">
+                        
+                            <div class="place-text">
+                            <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                            <h4 class="title-4 ">Everything You Need To Know To See The
+                                Northern Lights In Nosey Sky</h4>
+                                <p class="journal-para">Hidden Hills property with mountain and city  view  boast nine bed rooms including</p>
+                            <p class="read-more">Read More  <i class="fa-solid fa-arrow-right"></i> </p>
+                           </div>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+                <!-- popular post  -->
+                <div class="popular">
+                        <h3 class="popular-heading">popular post</h3>
+                        <div class="popular-post">
+                            <p class="norway color-4 ">Norway</p>
+                            <img src="image/popular/start.png" alt="">
+                        
+                            <div class="place-text">
+                            <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                            <h4 class="title-popular ">Everything You Need To 
+                                Know To See The Northern Lights In Nosey Sky</h4>
+                                <p class="popular-para">Hidden Hills property with mountain and city  view  boast nine bed rooms including</p>
+                            
+                           </div>
+                        </div>
+
+                        <hr>
+                        
+                        <div class="popular-side">
+                            <div class="popular-side-content">
+                                
+                                <img src="image/popular/Background.png" alt="">
+                                
+                                <div class="place-text">
+                                    <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                                    <h4 class="title-popular">Everything You Need To 
+                                        Know To See The Northern Lights In Nosey Sky</h4>
+                                       
+                                   </div>
+            
+                            </div>
+                            <div class="popular-side-content">
+                               
+                                <img src="image/popular/Background-1.png" alt="">
+                                
+                                <div class="place-text">
+                                    <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                                    <h4 class="title-popular ">Everything You Need To 
+                                        Know To See The Northern Lights In Nosey Sky</h4>
+                                        
+                                   </div>
+            
+                            </div>
+                            <div class="popular-side-content">
+                                
+                                <img src="image/popular/Background-2.png" alt="">
+                                
+                                <div class="place-text">
+                                    <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                                    <h4 class="title-popular ">Everything You Need To 
+                                        Know To See The Northern Lights In Nosey Sky</h4>
+                                        
+                                   </div>
+            
+                            </div>
+                            <div class="popular-side-content">
+                                
+                                <img src="image/popular/Background-3.png" alt="">
+                                
+                                <div class="place-text">
+                                    <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                                    <h4 class="title-popular ">Everything You Need To 
+                                        Know To See The Northern Lights In Nosey Sky</h4>
+                                        
+                                   </div>
+            
+                            </div>
+                            <div class="popular-side-content">
+                                
+                                <img src="image/popular/Background-4.png" alt="">
+                                
+                                <div class="place-text">
+                                    <p class="date"> <i class="fa-solid fa-calendar-days"></i> July 17,2023</p>
+                                    <h4 class="title-popular">Everything You Need To 
+                                        Know To See The Northern Lights In Nosey Sky</h4>
+                                   </div>
+            
+                            </div>
+                        </div>
+
+                       
+                          <!-- side ad  -->
+                        <div class="side-ad">
+                            <h2 class="country-title">Post Blocks</h2>
+                            <p class="para1">Best gutenberg blocks ever for news, magagine block</p>
+                            <div class="sidead-button">
+                                <a href="#">Download Now</a>
+                            </div>
+                        </div>
+
+                        <!-- side galary  -->
+                        <div>
+                            <h3 class="popular-heading">Galary</h3>
+                                <div class="image-grid">
+                                        <img src="image/gallery/Image.png" alt="Image 1">
+                               
+                                        <img src="image/gallery/Image-1.png" alt="Image 2">
+                                    
+                                        <img src="image/gallery/Image-2.png" alt="Image 3">
+                                    
+                                        <img src="image/gallery/Image-3.png" alt="Image 3">
+                                    
+                                        <img src="image/gallery/Image-4.png" alt="Image 3">
+                                    
+                                        <img src="image/gallery/Image-5.png" alt="Image 3">
+                                    
+                                        <img src="image/gallery/Image-6.png" alt="Image 3">
+                                    
+                                        <img src="image/gallery/Image-7.png" alt="Image 3">
+                                    
+                                        <img src="image/gallery/Image-8.png" alt="Image 3">
+                                    
+                                </div>
+                                
+                               
+                                
+                            
+                        </div>
+
+                    
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section class="pagination-sec">
+            <ul class="pagination">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <div class="footlogo">
+                <img src="image/footlogo.png" alt="">
+                <p class="foot-para">With grand cities, plenty of opportunities for adventure and some of the best hiking...</p>
+                <p class="foot-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            </div>
+            <div class="quick-link">
+                <h2 class="foot-headings">Quick Link</h2>
+                <hr class="clicked">
+                <a href="#">Home</a>
+                <a href="#">catergories</a>
+                <a href="#">Destination</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="popular-foot">
+                <h2 class="foot-headings">Popular Post</h2>
+                <hr class="clicked">
+                <div class="popular-foot-content">
+                               
+                    <img src="image/popular/Background-1.png" alt="">
+                    
+                    <div class="place-text">
+                        <p class="date"> <i class="fa-regular fa-user"></i>Sarfraz Jasim</p>
+                        <h4 class="foot-title ">Everything You Need To 
+                            Know To See The Northern Lights In Nosey Sky</h4>
+                            
+                       </div>
+
+                </div>
+                <hr>
+                <div class="popular-foot-content">
+                    
+                    
+                    <img src="image/popular/Background-2.png" alt="">
+                    
+                    <div class="place-text">
+                        <p class="date"> <i class="fa-regular fa-user"></i>Sarfraz Jasim</p>
+                        <h4 class="foot-title ">Everything You Need To 
+                            Know To See The Northern Lights In Nosey Sky</h4>
+                            
+                       </div>
+
+                </div>
+            </div>
+            <div class="most-read">
+                <h2 class="foot-headings">Most Read</h2>
+                <hr class="clicked">
+                <div class="most-text">
+                    <p class="date"> <i class="fa-regular fa-user"></i>Sarfraz Jasim</p>
+                    <h4 class="foot-title ">Everything You Need To 
+                        Know To See The Northern Lights In Nosey Sky</h4>
+                        
+                </div>
+                <hr>
+                <div class="most-text">
+                    <p class="date"> <i class="fa-regular fa-user"></i>Sarfraz Jasim</p>
+                    <h4 class="foot-title ">Everything You Need To 
+                        Know To See The Northern Lights In Nosey Sky</h4>
+                        
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="foot-row2">
+                <div>
+                    
+                    <p ><span class="country-title">SUBSCRIBE FOR DAILY UPDATE</span> <br><span class="foot-para">No scam. Only important daily, weekly, and monthly update.</span></p>
+                </div>
+                <div class="subscribe-bar">
+                    <input type="text" class="email-input" placeholder="Enter Your Email Here..">
+                    
+                        <a href="#" class="subscribe-button">Subscribe</a>
+                   
+                </div>
+
+        </div>
+        <hr>
+        <div class="foot-end">
+            <p class="foot-para">Copyright © 2023 | Designed By <span style="color: #047FFA;">WPXPO</span></p>
+
+
+                <div class="social-foot">
+                    <p>Follow Us</p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    
+                </div>
+            
+        </div>
+    </footer>
+
+    
+
+
+</body>
+</html>
