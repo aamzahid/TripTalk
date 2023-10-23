@@ -115,7 +115,7 @@ body {
 
 /* Style for the search button */
 .search-button {
-    background-color: #000000; /* Change this to your desired button color */
+    background-color: #000000; 
     color: #fff;
     border: none;
     padding: 5px 5px;
@@ -446,7 +446,7 @@ text-transform: uppercase;
 
 
 
-/* Styling for the button (optional) */
+
 .ad-button a {
     background-color: #007BFF;
     color: #ffffff; 
@@ -673,11 +673,7 @@ margin-bottom: 35px;
 }
 
 
-/* pagination  */
-/* .pagination-sec{
-    margin: 25px 165px;
-}
-*/
+
 .pagination {
     
     display: flex;
